@@ -1,0 +1,64 @@
+.app {
+  max-width: 500px;
+  margin: 40px auto;
+  font-family: system-ui, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.add-movie {
+  display: flex;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.add-movie input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.add-movie button {
+  padding: 10px 20px;
+  background: #2c5aa0;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+}
+
+.movie-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.movie-list li.watched span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.movie-list button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.empty {
+  text-align: center;
+  color: #888;
+}
