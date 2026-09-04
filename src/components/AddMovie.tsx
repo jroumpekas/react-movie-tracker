@@ -20,7 +20,7 @@ function AddMovie({ onAdd }: AddMovieProps) {
                 type="text"
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
-                placeholder="Προσθήκη ταινίας..."
+                placeholder="Add Movie Title..."
                 onKeyDown={(e) => e.key === 'Enter' && handleSubmit()}
             />
             <button onClick={handleSubmit}>Add</button>
